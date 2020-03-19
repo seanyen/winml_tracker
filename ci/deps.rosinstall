@@ -12,8 +12,8 @@
     version: kinetic-devel
 - git:
     local-name: catkin
-    uri: https://github.com/ros/catkin.git
-    version: kinetic-devel
+    uri: https://github.com/seanyen/catkin.git
+    version: seanyen/python_install_drive
 - git:
     local-name: class_loader
     uri: https://github.com/ros/class_loader.git
