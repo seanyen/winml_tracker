@@ -4,6 +4,7 @@ channels:
   - defaults
 dependencies:
   - python=3.7
+  - setuptools=47.3.1
   - colcon-common-extensions
   - vcstool
   - rosdep
