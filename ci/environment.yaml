@@ -4,6 +4,7 @@ channels:
   - defaults
 dependencies:
   - python=3.7
+  - cmake
   - colcon-common-extensions
   - rosinstall_generator
   - vcstool
