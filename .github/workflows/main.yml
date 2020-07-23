@@ -31,7 +31,7 @@ jobs:
         environment-file: ci/environment.yaml
         python-version: 3.7
     - name: Cleanup windows environment
-      shell: cmd
+      shell: cmd /C CALL {0}
       run: |
         rosinstall_generator vision_opencv interactive_markers --rosdistro noetic --deps > ci/test.rosinstall
     - uses: ros-tooling/action-ros-ci@0.0.17
