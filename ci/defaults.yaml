@@ -4,7 +4,8 @@
         "event-handlers": ["console_cohesion+"],
         "catkin-cmake-args": [
             "-DCATKIN_SKIP_TESTING=ON",
-            "-DCMAKE_PREFIX_PATH=c:/miniconda/envs/myenv/library"
+            "-DCMAKE_PREFIX_PATH=c:/miniconda/envs/myenv/library",
+            "-DCMAKE_WINDOWS_EXPORT_ALL_SYMBOLS=ON"
         ],
         "install-base": "c:\\miniconda\\envs\\myenv\\library",
         "parallel-workers" : 1,
